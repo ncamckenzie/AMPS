@@ -1,7 +1,7 @@
 package APMS;
 
 import java.util.*;
-
+import database
 /**
  * 
  */
@@ -21,7 +21,7 @@ public class Report {
      * Default constructor
      */
     public Report() {
-        this.BudgetDistribution=
+        this.BudgetDistribution=database.BudgetDistribution
         
     }
 
@@ -48,7 +48,7 @@ public class Report {
     /**
      * 
      */
-    private void TotalApplicationsRevieced;
+    private void TotalApplicationsRevieced (String timeframe);
 
 
 
